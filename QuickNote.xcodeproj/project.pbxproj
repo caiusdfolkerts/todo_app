@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000001 /* QuickNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000101 /* QuickNoteApp.swift */; };
+		000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000102 /* AppDelegate.swift */; };
+		000000003 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000103 /* Persistence.swift */; };
+		000000004 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000201 /* Note+CoreDataClass.swift */; };
+		000000005 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000202 /* Note+CoreDataProperties.swift */; };
+		000000006 /* QuickPanelWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000301 /* QuickPanelWindowController.swift */; };
+		000000007 /* QuickPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000302 /* QuickPanelView.swift */; };
+		000000008 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000303 /* Shortcut.swift */; };
+		000000009 /* ShortcutRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000304 /* ShortcutRecorderView.swift */; };
+		00000000A /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000401 /* StatusBarController.swift */; };
+		00000000B /* MenuBarPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000402 /* MenuBarPopoverView.swift */; };
+		00000000C /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000501 /* MainAppView.swift */; };
+		00000000D /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000502 /* NoteEditorView.swift */; };
+		00000000E /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000503 /* SidebarView.swift */; };
+		00000000F /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000601 /* PreferencesView.swift */; };
+		000000010 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000701 /* KeyCodes.swift */; };
+		000000011 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000702 /* VisualEffectView.swift */; };
+		000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000801 /* Assets.xcassets */; };
+		000000013 /* NotesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000000901 /* NotesModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000100 /* QuickNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000101 /* QuickNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNoteApp.swift; sourceTree = "<group>"; };
+		000000102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000000103 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		000000104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000201 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		000000202 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		000000301 /* QuickPanelWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPanelWindowController.swift; sourceTree = "<group>"; };
+		000000302 /* QuickPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPanelView.swift; sourceTree = "<group>"; };
+		000000303 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		000000304 /* ShortcutRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRecorderView.swift; sourceTree = "<group>"; };
+		000000401 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		000000402 /* MenuBarPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPopoverView.swift; sourceTree = "<group>"; };
+		000000501 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		000000502 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		000000503 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		000000601 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		000000701 /* KeyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
+		000000702 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+        000000801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        000000902 /* NotesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin XCVersionGroup section */
+        000000901 /* NotesModel.xcdatamodeld */ = {
+            isa = XCVersionGroup;
+            children = (
+                000000902 /* NotesModel.xcdatamodel */,
+            );
+            currentVersion = 000000902 /* NotesModel.xcdatamodel */;
+            path = NotesModel.xcdatamodeld;
+            sourceTree = "<group>";
+            versionGroupType = wrapper.xcdatamodel;
+        };
+/* End XCVersionGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0000000120 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000 /* ProjectGroup */ = {
+			isa = PBXGroup;
+			children = (
+				000000010 /* QuickNote */,
+				000000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000010 /* QuickNote */ = {
+			isa = PBXGroup;
+			children = (
+				000000101 /* QuickNoteApp.swift */,
+				000000102 /* AppDelegate.swift */,
+				000000103 /* Persistence.swift */,
+				000000104 /* Info.plist */,
+				000000801 /* Assets.xcassets */,
+				000000030 /* Models */,
+				000000040 /* Panels */,
+				000000050 /* MenuBar */,
+				000000060 /* Main */,
+				000000070 /* Preferences */,
+				000000080 /* Utils */,
+				000000901 /* NotesModel.xcdatamodeld */,
+			);
+			path = QuickNote;
+			sourceTree = "<group>";
+		};
+		000000020 /* Products */ = {isa = PBXGroup; children = ( 000000100 /* QuickNote.app */, ); name = Products; sourceTree = "<group>"; };
+		000000030 /* Models */ = {isa = PBXGroup; children = ( 000000201 /* Note+CoreDataClass.swift */, 000000202 /* Note+CoreDataProperties.swift */, ); path = Models; sourceTree = "<group>"; };
+		000000040 /* Panels */ = {isa = PBXGroup; children = ( 000000301 /* QuickPanelWindowController.swift */, 000000302 /* QuickPanelView.swift */, 000000303 /* Shortcut.swift */, 000000304 /* ShortcutRecorderView.swift */, ); path = Panels; sourceTree = "<group>"; };
+		000000050 /* MenuBar */ = {isa = PBXGroup; children = ( 000000401 /* StatusBarController.swift */, 000000402 /* MenuBarPopoverView.swift */, ); path = MenuBar; sourceTree = "<group>"; };
+		000000060 /* Main */ = {isa = PBXGroup; children = ( 000000501 /* MainAppView.swift */, 000000502 /* NoteEditorView.swift */, 000000503 /* SidebarView.swift */, ); path = Main; sourceTree = "<group>"; };
+		000000070 /* Preferences */ = {isa = PBXGroup; children = ( 000000601 /* PreferencesView.swift */, ); path = Preferences; sourceTree = "<group>"; };
+		000000080 /* Utils */ = {isa = PBXGroup; children = ( 000000701 /* KeyCodes.swift */, 000000702 /* VisualEffectView.swift */, ); path = Utils; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000200 /* QuickNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000260 /* Build configuration list for PBXNativeTarget "QuickNote" */;
+			buildPhases = (
+				0000000110 /* Sources */,
+				0000000120 /* Frameworks */,
+				0000000130 /* Resources */,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = QuickNote;
+			productName = QuickNote;
+			productReference = 000000100 /* QuickNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; ORGANIZATIONNAME = ""; };
+			buildConfigurationList = 000000250 /* Build configuration list for PBXProject "QuickNote" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = ( en, );
+			mainGroup = 000000000 /* ProjectGroup */;
+			productRefGroup = 000000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( 000000200 /* QuickNote */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0000000130 /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( 000000012 /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0000000110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000001 /* QuickNoteApp.swift in Sources */,
+				000000002 /* AppDelegate.swift in Sources */,
+				000000003 /* Persistence.swift in Sources */,
+				000000004 /* Note+CoreDataClass.swift in Sources */,
+				000000005 /* Note+CoreDataProperties.swift in Sources */,
+				000000006 /* QuickPanelWindowController.swift in Sources */,
+				000000007 /* QuickPanelView.swift in Sources */,
+				000000008 /* Shortcut.swift in Sources */,
+				000000009 /* ShortcutRecorderView.swift in Sources */,
+				00000000A /* StatusBarController.swift in Sources */,
+				00000000B /* MenuBarPopoverView.swift in Sources */,
+				00000000C /* MainAppView.swift in Sources */,
+				00000000D /* NoteEditorView.swift in Sources */,
+				00000000E /* SidebarView.swift in Sources */,
+				00000000F /* PreferencesView.swift in Sources */,
+				000000010 /* KeyCodes.swift in Sources */,
+				000000011 /* VisualEffectView.swift in Sources */,
+				000000013 /* NotesModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuickNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiusfolkerts.QuickNote;
+				PRODUCT_NAME = "QuickNote";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		000000262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuickNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiusfolkerts.QuickNote;
+				PRODUCT_NAME = "QuickNote";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000250 /* Build configuration list for PBXProject "QuickNote" */ = { isa = XCConfigurationList; buildConfigurations = ( 000000251 /* Debug */, 000000252 /* Release */ ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000260 /* Build configuration list for PBXNativeTarget "QuickNote" */ = { isa = XCConfigurationList; buildConfigurations = ( 000000261 /* Debug */, 000000262 /* Release */ ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 0000000010 /* Project object */;
+}
